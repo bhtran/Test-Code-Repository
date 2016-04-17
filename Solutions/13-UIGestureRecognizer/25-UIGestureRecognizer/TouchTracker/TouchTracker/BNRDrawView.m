@@ -15,6 +15,7 @@
 @property (nonatomic, strong) NSMutableDictionary *linesInProgress;
 @property (nonatomic, strong) NSMutableArray *finishedLines;
 
+// Uses NBRLine in order to use the CGPoint *begin and *end property.
 @property (nonatomic, weak) BNRLine *selectedLine;
 
 @end
