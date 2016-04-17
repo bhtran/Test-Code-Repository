@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E221C40B1CC3EB0200B04523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C40A1CC3EB0200B04523 /* main.m */; };
+		E221C40E1CC3EB0200B04523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C40D1CC3EB0200B04523 /* AppDelegate.m */; };
+		E221C4111CC3EB0200B04523 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C4101CC3EB0200B04523 /* ViewController.m */; };
+		E221C4141CC3EB0200B04523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E221C4121CC3EB0200B04523 /* Main.storyboard */; };
+		E221C4171CC3EB0200B04523 /* TestingNetworkConnection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E221C4151CC3EB0200B04523 /* TestingNetworkConnection.xcdatamodeld */; };
+		E221C4191CC3EB0200B04523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E221C4181CC3EB0200B04523 /* Assets.xcassets */; };
+		E221C41C1CC3EB0200B04523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E221C41A1CC3EB0200B04523 /* LaunchScreen.storyboard */; };
+		E221C4271CC3EB0200B04523 /* TestingNetworkConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C4261CC3EB0200B04523 /* TestingNetworkConnectionTests.m */; };
+		E221C4321CC3EB0200B04523 /* TestingNetworkConnectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E221C4311CC3EB0200B04523 /* TestingNetworkConnectionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E221C4231CC3EB0200B04523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E221C3FE1CC3EB0200B04523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E221C4051CC3EB0200B04523;
+			remoteInfo = TestingNetworkConnection;
+		};
+		E221C42E1CC3EB0200B04523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E221C3FE1CC3EB0200B04523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E221C4051CC3EB0200B04523;
+			remoteInfo = TestingNetworkConnection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E221C4061CC3EB0200B04523 /* TestingNetworkConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingNetworkConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E221C40A1CC3EB0200B04523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E221C40C1CC3EB0200B04523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E221C40D1CC3EB0200B04523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E221C40F1CC3EB0200B04523 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E221C4101CC3EB0200B04523 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E221C4131CC3EB0200B04523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E221C4161CC3EB0200B04523 /* TestingNetworkConnection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestingNetworkConnection.xcdatamodel; sourceTree = "<group>"; };
+		E221C4181CC3EB0200B04523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E221C41B1CC3EB0200B04523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E221C41D1CC3EB0200B04523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E221C4221CC3EB0200B04523 /* TestingNetworkConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingNetworkConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E221C4261CC3EB0200B04523 /* TestingNetworkConnectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingNetworkConnectionTests.m; sourceTree = "<group>"; };
+		E221C4281CC3EB0200B04523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E221C42D1CC3EB0200B04523 /* TestingNetworkConnectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingNetworkConnectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E221C4311CC3EB0200B04523 /* TestingNetworkConnectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingNetworkConnectionUITests.m; sourceTree = "<group>"; };
+		E221C4331CC3EB0200B04523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E221C4031CC3EB0200B04523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E221C41F1CC3EB0200B04523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E221C42A1CC3EB0200B04523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E221C3FD1CC3EB0200B04523 = {
+			isa = PBXGroup;
+			children = (
+				E221C4081CC3EB0200B04523 /* TestingNetworkConnection */,
+				E221C4251CC3EB0200B04523 /* TestingNetworkConnectionTests */,
+				E221C4301CC3EB0200B04523 /* TestingNetworkConnectionUITests */,
+				E221C4071CC3EB0200B04523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E221C4071CC3EB0200B04523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E221C4061CC3EB0200B04523 /* TestingNetworkConnection.app */,
+				E221C4221CC3EB0200B04523 /* TestingNetworkConnectionTests.xctest */,
+				E221C42D1CC3EB0200B04523 /* TestingNetworkConnectionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E221C4081CC3EB0200B04523 /* TestingNetworkConnection */ = {
+			isa = PBXGroup;
+			children = (
+				E221C40C1CC3EB0200B04523 /* AppDelegate.h */,
+				E221C40D1CC3EB0200B04523 /* AppDelegate.m */,
+				E221C40F1CC3EB0200B04523 /* ViewController.h */,
+				E221C4101CC3EB0200B04523 /* ViewController.m */,
+				E221C4121CC3EB0200B04523 /* Main.storyboard */,
+				E221C4181CC3EB0200B04523 /* Assets.xcassets */,
+				E221C41A1CC3EB0200B04523 /* LaunchScreen.storyboard */,
+				E221C41D1CC3EB0200B04523 /* Info.plist */,
+				E221C4151CC3EB0200B04523 /* TestingNetworkConnection.xcdatamodeld */,
+				E221C4091CC3EB0200B04523 /* Supporting Files */,
+			);
+			path = TestingNetworkConnection;
+			sourceTree = "<group>";
+		};
+		E221C4091CC3EB0200B04523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E221C40A1CC3EB0200B04523 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E221C4251CC3EB0200B04523 /* TestingNetworkConnectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E221C4261CC3EB0200B04523 /* TestingNetworkConnectionTests.m */,
+				E221C4281CC3EB0200B04523 /* Info.plist */,
+			);
+			path = TestingNetworkConnectionTests;
+			sourceTree = "<group>";
+		};
+		E221C4301CC3EB0200B04523 /* TestingNetworkConnectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E221C4311CC3EB0200B04523 /* TestingNetworkConnectionUITests.m */,
+				E221C4331CC3EB0200B04523 /* Info.plist */,
+			);
+			path = TestingNetworkConnectionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E221C4051CC3EB0200B04523 /* TestingNetworkConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E221C4361CC3EB0200B04523 /* Build configuration list for PBXNativeTarget "TestingNetworkConnection" */;
+			buildPhases = (
+				E221C4021CC3EB0200B04523 /* Sources */,
+				E221C4031CC3EB0200B04523 /* Frameworks */,
+				E221C4041CC3EB0200B04523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestingNetworkConnection;
+			productName = TestingNetworkConnection;
+			productReference = E221C4061CC3EB0200B04523 /* TestingNetworkConnection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E221C4211CC3EB0200B04523 /* TestingNetworkConnectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E221C4391CC3EB0200B04523 /* Build configuration list for PBXNativeTarget "TestingNetworkConnectionTests" */;
+			buildPhases = (
+				E221C41E1CC3EB0200B04523 /* Sources */,
+				E221C41F1CC3EB0200B04523 /* Frameworks */,
+				E221C4201CC3EB0200B04523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E221C4241CC3EB0200B04523 /* PBXTargetDependency */,
+			);
+			name = TestingNetworkConnectionTests;
+			productName = TestingNetworkConnectionTests;
+			productReference = E221C4221CC3EB0200B04523 /* TestingNetworkConnectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E221C42C1CC3EB0200B04523 /* TestingNetworkConnectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E221C43C1CC3EB0200B04523 /* Build configuration list for PBXNativeTarget "TestingNetworkConnectionUITests" */;
+			buildPhases = (
+				E221C4291CC3EB0200B04523 /* Sources */,
+				E221C42A1CC3EB0200B04523 /* Frameworks */,
+				E221C42B1CC3EB0200B04523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E221C42F1CC3EB0200B04523 /* PBXTargetDependency */,
+			);
+			name = TestingNetworkConnectionUITests;
+			productName = TestingNetworkConnectionUITests;
+			productReference = E221C42D1CC3EB0200B04523 /* TestingNetworkConnectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E221C3FE1CC3EB0200B04523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bao Tran";
+				TargetAttributes = {
+					E221C4051CC3EB0200B04523 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 87H88Y5GU7;
+					};
+					E221C4211CC3EB0200B04523 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 87H88Y5GU7;
+						TestTargetID = E221C4051CC3EB0200B04523;
+					};
+					E221C42C1CC3EB0200B04523 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 87H88Y5GU7;
+						TestTargetID = E221C4051CC3EB0200B04523;
+					};
+				};
+			};
+			buildConfigurationList = E221C4011CC3EB0200B04523 /* Build configuration list for PBXProject "TestingNetworkConnection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E221C3FD1CC3EB0200B04523;
+			productRefGroup = E221C4071CC3EB0200B04523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E221C4051CC3EB0200B04523 /* TestingNetworkConnection */,
+				E221C4211CC3EB0200B04523 /* TestingNetworkConnectionTests */,
+				E221C42C1CC3EB0200B04523 /* TestingNetworkConnectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E221C4041CC3EB0200B04523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E221C41C1CC3EB0200B04523 /* LaunchScreen.storyboard in Resources */,
+				E221C4191CC3EB0200B04523 /* Assets.xcassets in Resources */,
+				E221C4141CC3EB0200B04523 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E221C4201CC3EB0200B04523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E221C42B1CC3EB0200B04523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E221C4021CC3EB0200B04523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E221C4111CC3EB0200B04523 /* ViewController.m in Sources */,
+				E221C4171CC3EB0200B04523 /* TestingNetworkConnection.xcdatamodeld in Sources */,
+				E221C40E1CC3EB0200B04523 /* AppDelegate.m in Sources */,
+				E221C40B1CC3EB0200B04523 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E221C41E1CC3EB0200B04523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E221C4271CC3EB0200B04523 /* TestingNetworkConnectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E221C4291CC3EB0200B04523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E221C4321CC3EB0200B04523 /* TestingNetworkConnectionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E221C4241CC3EB0200B04523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E221C4051CC3EB0200B04523 /* TestingNetworkConnection */;
+			targetProxy = E221C4231CC3EB0200B04523 /* PBXContainerItemProxy */;
+		};
+		E221C42F1CC3EB0200B04523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E221C4051CC3EB0200B04523 /* TestingNetworkConnection */;
+			targetProxy = E221C42E1CC3EB0200B04523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E221C4121CC3EB0200B04523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E221C4131CC3EB0200B04523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E221C41A1CC3EB0200B04523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E221C41B1CC3EB0200B04523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E221C4341CC3EB0200B04523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E221C4351CC3EB0200B04523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E221C4371CC3EB0200B04523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestingNetworkConnection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.TestingNetworkConnection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E221C4381CC3EB0200B04523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestingNetworkConnection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.TestingNetworkConnection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E221C43A1CC3EB0200B04523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestingNetworkConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.TestingNetworkConnectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingNetworkConnection.app/TestingNetworkConnection";
+			};
+			name = Debug;
+		};
+		E221C43B1CC3EB0200B04523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestingNetworkConnectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.TestingNetworkConnectionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingNetworkConnection.app/TestingNetworkConnection";
+			};
+			name = Release;
+		};
+		E221C43D1CC3EB0200B04523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestingNetworkConnectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.TestingNetworkConnectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestingNetworkConnection;
+			};
+			name = Debug;
+		};
+		E221C43E1CC3EB0200B04523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestingNetworkConnectionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.TestingNetworkConnectionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestingNetworkConnection;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E221C4011CC3EB0200B04523 /* Build configuration list for PBXProject "TestingNetworkConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E221C4341CC3EB0200B04523 /* Debug */,
+				E221C4351CC3EB0200B04523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E221C4361CC3EB0200B04523 /* Build configuration list for PBXNativeTarget "TestingNetworkConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E221C4371CC3EB0200B04523 /* Debug */,
+				E221C4381CC3EB0200B04523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E221C4391CC3EB0200B04523 /* Build configuration list for PBXNativeTarget "TestingNetworkConnectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E221C43A1CC3EB0200B04523 /* Debug */,
+				E221C43B1CC3EB0200B04523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E221C43C1CC3EB0200B04523 /* Build configuration list for PBXNativeTarget "TestingNetworkConnectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E221C43D1CC3EB0200B04523 /* Debug */,
+				E221C43E1CC3EB0200B04523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E221C4151CC3EB0200B04523 /* TestingNetworkConnection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E221C4161CC3EB0200B04523 /* TestingNetworkConnection.xcdatamodel */,
+			);
+			currentVersion = E221C4161CC3EB0200B04523 /* TestingNetworkConnection.xcdatamodel */;
+			path = TestingNetworkConnection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E221C3FE1CC3EB0200B04523 /* Project object */;
+}
