@@ -14,23 +14,63 @@
 @property (nonatomic, strong) UIPanGestureRecognizer *moveRecognizer;
 @property (nonatomic, strong) NSMutableDictionary *linesInProgress;
 @property (nonatomic, strong) NSMutableArray *finishedLines;
+@property (nonatomic, strong) UIView *isTouchEnabled;
 
-// Uses NBRLine in order to use the CGPoint *begin and *end property.
+// ** Uses BNRLine *selectedLine in order to use the CGPoint *begin and *end property.
 @property (nonatomic, weak) BNRLine *selectedLine;
 
 @end
 
 @implementation BNRDrawView
 
-- (instancetype)initWithFrame:(CGRect)r
+//- (instancetype)initWithFrameWithMoveRecognizer:(UIPanGestureRecognizer *)moveRecognizer
+//                                linesInProgress:(NSMutableDictionary *)linesInProgress
+//                                  finishedLines:(NSMutableArray *)finishedLines {
+//    self = [super init];
+//    if (self) {
+//        _moveRecognizer = moveRecognizer;
+//        _linesInProgress = linesInProgress;
+//        _finishedLines = finishedLines;
+//        _isTouchEnabled.multipleTouchEnabled = YES;
+//        
+//        UITapGestureRecognizer *doubleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(doubleTap:)];
+//        doubleTapRecognizer.numberOfTapsRequired = 2;
+//        doubleTapRecognizer.delaysTouchesBegan = YES;
+//        
+//        [self addGestureRecognizer:doubleTapRecognizer];
+//        
+//        UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+//        tapRecognizer.delaysTouchesBegan = YES;
+//        
+//        [tapRecognizer requireGestureRecognizerToFail:doubleTapRecognizer];
+//        [self addGestureRecognizer:tapRecognizer];
+//        
+//        UILongPressGestureRecognizer *pressRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
+//        [self addGestureRecognizer:pressRecognizer];
+//        
+//        _moveRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(moveLine:)];
+//        _moveRecognizer.delegate = self;
+//        _moveRecognizer.cancelsTouchesInView = NO;
+//        [self addGestureRecognizer:_moveRecognizer];
+//        
+//    }
+//    
+//    return self;
+//    
+//}
+
+
+- (instancetype)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:r];
+    self = [super initWithFrame:frame];
 
     if (self) {
         self.linesInProgress = [[NSMutableDictionary alloc] init];
         self.finishedLines = [[NSMutableArray alloc] init];
         self.backgroundColor = [UIColor grayColor];
         self.multipleTouchEnabled = YES;
+
+        //** This adds a double tap recognizer for the screen. It also awaits a method called double tap in case it becomes true.
 
         UITapGestureRecognizer *doubleTapRecognizer =
             [[UITapGestureRecognizer alloc] initWithTarget:self
@@ -44,6 +84,8 @@
             [[UITapGestureRecognizer alloc] initWithTarget:self
                                                     action:@selector(tap:)];
         tapRecognizer.delaysTouchesBegan = YES;
+        
+        //** The line below says if there is a double tap then this single tapRecognizer is canceled
         [tapRecognizer requireGestureRecognizerToFail:doubleTapRecognizer];
         [self addGestureRecognizer:tapRecognizer];
 
