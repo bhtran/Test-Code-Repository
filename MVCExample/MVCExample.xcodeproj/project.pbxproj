@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E24844E31DA17F8A0051C400 /* BorderImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24844E21DA17F8A0051C400 /* BorderImage.swift */; };
+		E24844E51DA17FA40051C400 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24844E41DA17FA40051C400 /* Dog.swift */; };
 		E24A14581D993902009E37BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24A14571D993902009E37BE /* AppDelegate.swift */; };
 		E24A145A1D993902009E37BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24A14591D993902009E37BE /* ViewController.swift */; };
 		E24A145D1D993902009E37BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A145B1D993902009E37BE /* Main.storyboard */; };
 		E24A145F1D993902009E37BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24A145E1D993902009E37BE /* Assets.xcassets */; };
 		E24A14621D993902009E37BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24A14601D993902009E37BE /* LaunchScreen.storyboard */; };
-		E24A146F1D993A77009E37BE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24A146E1D993A77009E37BE /* Person.swift */; };
-		E24A14711D994047009E37BE /* doge.png in Resources */ = {isa = PBXBuildFile; fileRef = E24A14701D994047009E37BE /* doge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E24844E21DA17F8A0051C400 /* BorderImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderImage.swift; sourceTree = "<group>"; };
+		E24844E41DA17FA40051C400 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		E24A14541D993902009E37BE /* MVCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24A14571D993902009E37BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24A14591D993902009E37BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +26,6 @@
 		E24A145E1D993902009E37BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24A14611D993902009E37BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24A14631D993902009E37BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E24A146E1D993A77009E37BE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		E24A14701D994047009E37BE /* doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,6 @@
 				E24A14571D993902009E37BE /* AppDelegate.swift */,
 				E24A145B1D993902009E37BE /* Main.storyboard */,
 				E24A145E1D993902009E37BE /* Assets.xcassets */,
-				E24A14701D994047009E37BE /* doge.png */,
 				E24A14601D993902009E37BE /* LaunchScreen.storyboard */,
 				E24A14631D993902009E37BE /* Info.plist */,
 			);
@@ -82,7 +81,7 @@
 		E24A146C1D9939E9009E37BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E24A146E1D993A77009E37BE /* Person.swift */,
+				E24844E41DA17FA40051C400 /* Dog.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -90,6 +89,7 @@
 		E24A146D1D9939F6009E37BE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E24844E21DA17F8A0051C400 /* BorderImage.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -154,7 +154,6 @@
 			files = (
 				E24A14621D993902009E37BE /* LaunchScreen.storyboard in Resources */,
 				E24A145F1D993902009E37BE /* Assets.xcassets in Resources */,
-				E24A14711D994047009E37BE /* doge.png in Resources */,
 				E24A145D1D993902009E37BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,8 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24A145A1D993902009E37BE /* ViewController.swift in Sources */,
+				E24844E31DA17F8A0051C400 /* BorderImage.swift in Sources */,
 				E24A14581D993902009E37BE /* AppDelegate.swift in Sources */,
-				E24A146F1D993A77009E37BE /* Person.swift in Sources */,
+				E24844E51DA17FA40051C400 /* Dog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

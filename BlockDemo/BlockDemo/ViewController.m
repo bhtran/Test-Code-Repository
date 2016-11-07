@@ -16,7 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    _blockAsAMemberVar = ^(void) {
+        return @"This block is declared as a member variable!";
+    };
+
+    [self testBlockStorageType];
+
+}
+
+- (void)testBlockStorageType {
+    __block int someValue = 10;
+    
+    int (^myOperation)(void) = ^(void) {
+        someValue = someValue + 5;
+        
+        return someValue + 10;
+    };
+    
+    NSLog(@"** ** \n\n\n%d", myOperation());
 }
 
 - (void)didReceiveMemoryWarning {

@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+-(void)testBlockStorageType;
+
+@property (nonatomic, strong) NSString *(^blockAsAMemberVar)(void);
 
 @end
 

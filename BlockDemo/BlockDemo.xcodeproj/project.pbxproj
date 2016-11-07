@@ -16,6 +16,7 @@
 		E2A04D061CD15720008552C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A04D041CD15720008552C7 /* LaunchScreen.storyboard */; };
 		E2A04D111CD15720008552C7 /* BlockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A04D101CD15720008552C7 /* BlockDemoTests.m */; };
 		E2A04D1C1CD15720008552C7 /* BlockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A04D1B1CD15720008552C7 /* BlockDemoUITests.m */; };
+		E2A78F471CD253E60032B494 /* CustomActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A78F461CD253E60032B494 /* CustomActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E2A04D171CD15720008552C7 /* BlockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A04D1B1CD15720008552C7 /* BlockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemoUITests.m; sourceTree = "<group>"; };
 		E2A04D1D1CD15720008552C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A78F451CD253E60032B494 /* CustomActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomActionSheet.h; sourceTree = "<group>"; };
+		E2A78F461CD253E60032B494 /* CustomActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				E2A04CF71CD15720008552C7 /* AppDelegate.m */,
 				E2A04CF91CD15720008552C7 /* ViewController.h */,
 				E2A04CFA1CD15720008552C7 /* ViewController.m */,
+				E2A78F451CD253E60032B494 /* CustomActionSheet.h */,
+				E2A78F461CD253E60032B494 /* CustomActionSheet.m */,
 				E2A04CFC1CD15720008552C7 /* Main.storyboard */,
 				E2A04D021CD15720008552C7 /* Assets.xcassets */,
 				E2A04D041CD15720008552C7 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A78F471CD253E60032B494 /* CustomActionSheet.m in Sources */,
 				E2A04CFB1CD15720008552C7 /* ViewController.m in Sources */,
 				E2A04CF81CD15720008552C7 /* AppDelegate.m in Sources */,
 				E2A04D011CD15720008552C7 /* BlockDemo.xcdatamodeld in Sources */,
@@ -503,6 +509,7 @@
 				E2A04D221CD15721008552C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2A04D231CD15721008552C7 /* Build configuration list for PBXNativeTarget "BlockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				E2A04D251CD15721008552C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2A04D261CD15721008552C7 /* Build configuration list for PBXNativeTarget "BlockDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				E2A04D281CD15721008552C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

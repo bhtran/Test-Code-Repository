@@ -10,18 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var fullNameLabel: UITextField!
+    @IBOutlet weak var fullNameLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let person = Person(firstName: "Forrest", lastName: "Gump")
+        let doge = Dog(prefix:"Mr.", name: "Doge")
         
-        fullNameLabel.text = person.fullName
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        fullNameLabel.text = doge.fullName
     }
 
 }

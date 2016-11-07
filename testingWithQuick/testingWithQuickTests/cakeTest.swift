@@ -6,7 +6,8 @@
 //  Copyright © 2016 Bao Tran. All rights reserved.
 //
 
-import XCTest
+import Quick
+import Nimble
 
 class cakeTest: QuickSpec {
     

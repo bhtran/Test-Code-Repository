@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B63E9CCF5B815B157EC2A06 /* Pods_cakeTestWithQuick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370951D5695A0616B4D6F23D /* Pods_cakeTestWithQuick.framework */; };
+		A9D4D2BDCE72684D83DED9E1 /* Pods_cakeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8AC820150C65C3821EDC19 /* Pods_cakeTest.framework */; };
 		E23655C11D986D6B00AC6EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23655C01D986D6B00AC6EB6 /* AppDelegate.swift */; };
 		E23655C31D986D6B00AC6EB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23655C21D986D6B00AC6EB6 /* ViewController.swift */; };
 		E23655C61D986D6B00AC6EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23655C41D986D6B00AC6EB6 /* Main.storyboard */; };
 		E23655C81D986D6B00AC6EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23655C71D986D6B00AC6EB6 /* Assets.xcassets */; };
 		E23655CB1D986D6B00AC6EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23655C91D986D6B00AC6EB6 /* LaunchScreen.storyboard */; };
+		E23655D91D986DF200AC6EB6 /* cakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23655D81D986DF200AC6EB6 /* cakeTest.swift */; };
+		E23655E11D986FC100AC6EB6 /* cakeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23655E01D986FC100AC6EB6 /* cakeSpec.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E23655DB1D986DF200AC6EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23655B51D986D6B00AC6EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23655BC1D986D6B00AC6EB6;
+			remoteInfo = cakeTestWithQuick;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		13C5BE5824BD8AEFF3E91DA5 /* Pods-cakeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cakeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cakeTest/Pods-cakeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		370951D5695A0616B4D6F23D /* Pods_cakeTestWithQuick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cakeTestWithQuick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4208754718AEB1753FF5EBC1 /* Pods-cakeTestWithQuick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cakeTestWithQuick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cakeTestWithQuick/Pods-cakeTestWithQuick.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA50F4C81F1DECA9691AFA8 /* Pods-cakeTestWithQuick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cakeTestWithQuick.release.xcconfig"; path = "Pods/Target Support Files/Pods-cakeTestWithQuick/Pods-cakeTestWithQuick.release.xcconfig"; sourceTree = "<group>"; };
+		7A8AC820150C65C3821EDC19 /* Pods_cakeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cakeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68507E7D9A4AD6FB378EAE /* Pods-cakeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cakeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-cakeTest/Pods-cakeTest.release.xcconfig"; sourceTree = "<group>"; };
 		E23655BD1D986D6B00AC6EB6 /* cakeTestWithQuick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cakeTestWithQuick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23655C01D986D6B00AC6EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E23655C21D986D6B00AC6EB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,10 @@
 		E23655C71D986D6B00AC6EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E23655CA1D986D6B00AC6EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E23655CC1D986D6B00AC6EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23655D61D986DF200AC6EB6 /* cakeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cakeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23655D81D986DF200AC6EB6 /* cakeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakeTest.swift; sourceTree = "<group>"; };
+		E23655DA1D986DF200AC6EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23655E01D986FC100AC6EB6 /* cakeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cakeSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B63E9CCF5B815B157EC2A06 /* Pods_cakeTestWithQuick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23655D31D986DF200AC6EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D4D2BDCE72684D83DED9E1 /* Pods_cakeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD1FF87546A4FE627CE0363E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A8AC820150C65C3821EDC19 /* Pods_cakeTest.framework */,
+				370951D5695A0616B4D6F23D /* Pods_cakeTestWithQuick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E00ABE83ECA4124C9961D526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13C5BE5824BD8AEFF3E91DA5 /* Pods-cakeTest.debug.xcconfig */,
+				DE68507E7D9A4AD6FB378EAE /* Pods-cakeTest.release.xcconfig */,
+				4208754718AEB1753FF5EBC1 /* Pods-cakeTestWithQuick.debug.xcconfig */,
+				5BA50F4C81F1DECA9691AFA8 /* Pods-cakeTestWithQuick.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E23655B41D986D6B00AC6EB6 = {
 			isa = PBXGroup;
 			children = (
 				E23655BF1D986D6B00AC6EB6 /* cakeTestWithQuick */,
+				E23655D71D986DF200AC6EB6 /* cakeTest */,
 				E23655BE1D986D6B00AC6EB6 /* Products */,
+				E00ABE83ECA4124C9961D526 /* Pods */,
+				BD1FF87546A4FE627CE0363E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				E23655BD1D986D6B00AC6EB6 /* cakeTestWithQuick.app */,
+				E23655D61D986DF200AC6EB6 /* cakeTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +121,16 @@
 			path = cakeTestWithQuick;
 			sourceTree = "<group>";
 		};
+		E23655D71D986DF200AC6EB6 /* cakeTest */ = {
+			isa = PBXGroup;
+			children = (
+				E23655D81D986DF200AC6EB6 /* cakeTest.swift */,
+				E23655E01D986FC100AC6EB6 /* cakeSpec.swift */,
+				E23655DA1D986DF200AC6EB6 /* Info.plist */,
+			);
+			path = cakeTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E23655CF1D986D6B00AC6EB6 /* Build configuration list for PBXNativeTarget "cakeTestWithQuick" */;
 			buildPhases = (
+				B07B33D160D03E7D34D78575 /* [CP] Check Pods Manifest.lock */,
 				E23655B91D986D6B00AC6EB6 /* Sources */,
 				E23655BA1D986D6B00AC6EB6 /* Frameworks */,
 				E23655BB1D986D6B00AC6EB6 /* Resources */,
+				8FB14756D9FADF49FED661DE /* [CP] Embed Pods Frameworks */,
+				1BEEABBD06CB8799FC010655 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,6 +153,27 @@
 			productName = cakeTestWithQuick;
 			productReference = E23655BD1D986D6B00AC6EB6 /* cakeTestWithQuick.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E23655D51D986DF200AC6EB6 /* cakeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23655DD1D986DF200AC6EB6 /* Build configuration list for PBXNativeTarget "cakeTest" */;
+			buildPhases = (
+				FB6A3B6CCBF3136C3202AF58 /* [CP] Check Pods Manifest.lock */,
+				E23655D21D986DF200AC6EB6 /* Sources */,
+				E23655D31D986DF200AC6EB6 /* Frameworks */,
+				E23655D41D986DF200AC6EB6 /* Resources */,
+				57B4B6226B69FD0D835A29E5 /* [CP] Embed Pods Frameworks */,
+				BF188D3A9F517C4CDB552DC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23655DC1D986DF200AC6EB6 /* PBXTargetDependency */,
+			);
+			name = cakeTest;
+			productName = cakeTest;
+			productReference = E23655D61D986DF200AC6EB6 /* cakeTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +187,10 @@
 				TargetAttributes = {
 					E23655BC1D986D6B00AC6EB6 = {
 						CreatedOnToolsVersion = 7.3.1;
+					};
+					E23655D51D986DF200AC6EB6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E23655BC1D986D6B00AC6EB6;
 					};
 				};
 			};
@@ -113,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				E23655BC1D986D6B00AC6EB6 /* cakeTestWithQuick */,
+				E23655D51D986DF200AC6EB6 /* cakeTest */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +224,107 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E23655D41D986DF200AC6EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BEEABBD06CB8799FC010655 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cakeTestWithQuick/Pods-cakeTestWithQuick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57B4B6226B69FD0D835A29E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cakeTest/Pods-cakeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB14756D9FADF49FED661DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cakeTestWithQuick/Pods-cakeTestWithQuick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07B33D160D03E7D34D78575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF188D3A9F517C4CDB552DC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cakeTest/Pods-cakeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6A3B6CCBF3136C3202AF58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E23655B91D986D6B00AC6EB6 /* Sources */ = {
@@ -140,7 +336,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E23655D21D986DF200AC6EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23655E11D986FC100AC6EB6 /* cakeSpec.swift in Sources */,
+				E23655D91D986DF200AC6EB6 /* cakeTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E23655DC1D986DF200AC6EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23655BC1D986D6B00AC6EB6 /* cakeTestWithQuick */;
+			targetProxy = E23655DB1D986DF200AC6EB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E23655C41D986D6B00AC6EB6 /* Main.storyboard */ = {
@@ -247,6 +460,7 @@
 		};
 		E23655D01D986D6B00AC6EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4208754718AEB1753FF5EBC1 /* Pods-cakeTestWithQuick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cakeTestWithQuick/Info.plist;
@@ -258,12 +472,39 @@
 		};
 		E23655D11D986D6B00AC6EB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA50F4C81F1DECA9691AFA8 /* Pods-cakeTestWithQuick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cakeTestWithQuick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.cakeTestWithQuick";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E23655DE1D986DF200AC6EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C5BE5824BD8AEFF3E91DA5 /* Pods-cakeTest.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cakeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.cakeTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cakeTestWithQuick.app/cakeTestWithQuick";
+			};
+			name = Debug;
+		};
+		E23655DF1D986DF200AC6EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE68507E7D9A4AD6FB378EAE /* Pods-cakeTest.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cakeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bao-Tran.cakeTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cakeTestWithQuick.app/cakeTestWithQuick";
 			};
 			name = Release;
 		};
@@ -286,6 +527,16 @@
 				E23655D11D986D6B00AC6EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23655DD1D986DF200AC6EB6 /* Build configuration list for PBXNativeTarget "cakeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23655DE1D986DF200AC6EB6 /* Debug */,
+				E23655DF1D986DF200AC6EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

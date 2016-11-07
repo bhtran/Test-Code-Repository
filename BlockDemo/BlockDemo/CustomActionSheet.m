@@ -10,4 +10,7 @@
 
 @implementation CustomActionSheet
 
+@property (nonatomic, strong) UIActionSheet *actionSheet;
+
+
 @end
