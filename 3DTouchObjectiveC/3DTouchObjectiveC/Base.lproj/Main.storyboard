@@ -25,11 +25,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1" y="36"/>
         </scene>
         <!--Peek View Controller-->
         <scene sceneID="BOT-0J-oe8">
             <objects>
-                <viewController id="EiD-Ua-BC2" customClass="PeekViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PeekView" id="EiD-Ua-BC2" customClass="PeekViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MeT-3g-3Gv"/>
                         <viewControllerLayoutGuide type="bottom" id="EL8-jX-C1R"/>
@@ -53,7 +54,7 @@
         <!--Pop View Controller-->
         <scene sceneID="GcE-kY-63b">
             <objects>
-                <viewController id="lXv-cy-vpE" customClass="PopViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PopView" id="lXv-cy-vpE" customClass="PopViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="01y-G8-2Z6"/>
                         <viewControllerLayoutGuide type="bottom" id="rY1-Bc-jJM"/>
