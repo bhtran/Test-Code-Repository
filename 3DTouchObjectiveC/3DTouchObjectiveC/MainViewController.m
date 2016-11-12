@@ -1,12 +1,12 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  3DTouchObjectiveC
 //
 //  Created by Bao Tran on 11/6/16.
 //  Copyright © 2016 Bao Tran. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
 @interface ViewController ()
 
@@ -25,9 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)touchSensitivity {
-    
-}
+
 
 
 @end
