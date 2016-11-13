@@ -38,7 +38,16 @@
                     <view key="view" contentMode="scaleToFill" id="ybo-46-6sv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="peek-1" translatesAutoresizingMaskIntoConstraints="NO" id="Enz-Jh-zdr">
+                                <rect key="frame" x="-24" y="70" width="530" height="410"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Enz-Jh-zdr" firstAttribute="centerX" secondItem="ybo-46-6sv" secondAttribute="centerX" constant="53.5" id="GAJ-zP-BOi"/>
+                            <constraint firstItem="Enz-Jh-zdr" firstAttribute="centerY" secondItem="ybo-46-6sv" secondAttribute="centerY" constant="-58.5" id="thd-Lp-1v4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BkE-eF-UHs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -48,20 +57,33 @@
         <!--Pop View Controller-->
         <scene sceneID="A7w-Nf-spH">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lah-IC-hQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="PopView" id="TPv-t3-oCB" customClass="PopViewController" customModule="_DTouchSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ne9-Hz-5KR"/>
                         <viewControllerLayoutGuide type="bottom" id="w9s-zG-NYZ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="RAa-CG-CKr">
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="RAa-CG-CKr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pop-1" translatesAutoresizingMaskIntoConstraints="NO" id="LJp-bW-7o3">
+                                <rect key="frame" x="77" y="180" width="236" height="344"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LJp-bW-7o3" firstAttribute="centerY" secondItem="RAa-CG-CKr" secondAttribute="centerY" constant="18.5" id="71r-vn-ZHn"/>
+                            <constraint firstItem="LJp-bW-7o3" firstAttribute="centerX" secondItem="RAa-CG-CKr" secondAttribute="centerX" constant="7.5" id="SNJ-Xs-eyo"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lah-IC-hQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="135"/>
+            <point key="canvasLocation" x="1381.5999999999999" y="134.48275862068968"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="peek-1" width="530" height="410"/>
+        <image name="pop-1" width="236" height="344"/>
+    </resources>
 </document>
